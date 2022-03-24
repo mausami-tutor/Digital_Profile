@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="description" content="Mausami Digital Portfolio">
+    <meta name="keywords" content="skillset, Ditital, technology, compatibility, coding, software, full stack, developer, javascript, HTML, CSS, python, react-native">
+    <meta name="author" content="John Doe">
+</head>
+<body>
+    <div class="header" >
+       
+            <img src="dp.jpg" class="dp">
+            <p style="color:#1b1620; font-size: 34px;">
+                <ul>
+                <li>Hi ! I am <text style="font-size: 24px">Mausami</text></li>
+                <li>I am a facilitator with
+                    <text style="font-size: 24px">Whitehat Junior</text></li>
+                <li>I am from <text style="font-size: 24px">India!</text></li>
+            </ul>
+            </p>
+       
+        
+    </div>
+    <div class="tagline">
+
+        <p style="color:#1b1620; font-size: 34px;">
+            What all do I love 
+            about the Computers!
+        </p>
+    </div>
+    <div class="card-line" >
+       
+        <div class="flip-card">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="images/wordpress-brands.svg" alt="icon" style="width:200px;height:200px;">
+            </div>
+            <div class="flip-card-back">
+                
+                <div class="text-block">
+                <h1>HTML</h1>
+                <p>Creating nice web-pages</p>
+                <p>Play around with colors and fonts and different arrangements of blocks</p>
+            </div>
+                </div>
+            </div>
+            </div>
+        
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="images/js-brands.svg" alt="icon" style="width:200px;height:200px;">
+            </div>
+            <div class="flip-card-back">
+                
+                <div class="text-block">
+                <h1>Javascript</h1>
+                <p>Design dynamic web pages and games and quizzes</p>
+                <p>Create awsome front-ends with fast and real time page updation</p>
+                </div>
+                </div>
+            </div>
+            </div>
+       
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="images/python-brands.svg" alt="icon" style="width:200px;height:200px;">
+            </div>
+            <div class="flip-card-back">
+                
+                <div class="text-block">
+                <h1>Python</h1>
+                <p>Data analysis and Machine Learning</p>
+                <p>Data handling, create visual representaions using plotting tools and Image processing</p>
+            </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="images/react-brands.svg" alt="icon" style="width:200px;height:200px;">
+            </div>
+            <div class="flip-card-back">
+                
+                <div class="text-block">
+                    <h1>React Native</h1>
+                    <p>Desing awsome android apps</p>
+                    <p>Crate multiple screen apps with different navigation and rendering styles.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="images/file-code-solid.svg" alt="icon" style="width:200px;height:200px;">
+            </div>
+            <div class="flip-card-back">
+                
+                <div class="text-block">
+                    <h1>HTML</h1>
+                <p>Creating nice web-pages</p>
+                <p>Play around with colors and fonts and different arrangements of blocks</p>
+                </div>
+            </div>
+        </div>
+        </div>
+       
+       
+    </div>
+    
+    <div class="projects">
+        <h1 style="text-align:center">My Projets</h1>
+        <!--add hyperlink and screenshot of the project-->
+        <div class="project-block">
+         <h3>Project 1</h3>
+           
+                <p>
+                    Website design: prishijaenergy.com<br>
+                    link:<a href="https://prishijaenergy.com/">https://prishijaenergy.com/</a>
+                </p>
+          
+           
+               <!-- Slideshow container -->
+           
+               <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="images/Prishija/1.png" style="width:100%">
+                <div class="text">Pic one</div>
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="images/Prishija/2.png" style="width:100%">
+                <div class="text">Pic Two</div>
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="images/Prishija/3.png" style="width:100%">
+                <div class="text">Pic Three</div>
+                </div>
+        
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="images/Prishija/4.png" style="width:100%">
+                    <div class="text">Pic Four</div>
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>   
+            <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                }
+                </script>  
+       </div>
+       
+        <div class="project-block">
+        <h3>Project 2</h3>
+            <p>
+                Game design: botlle-flip<br>
+                Link:
+            </p>
+            <img src="images/bottle flip/2.png" style="width: 80%; vertical-align: center; border: 2px solid black;">
+        </div>
+   
+        
+        <div class="project-block">
+            <h3>Project 3</h3>
+            <p>
+                App design: Farmer-app<br>
+                Link:
+            </p>
+            <div class="row">
+                <img src="images/farmer app/1.png" style="display:flex;position:relative; height:100%; margin-right:20px; border:solid 2px black">
+                <img src="images/farmer app/2.png" style="display:flex;position:relative; height:100%; margin-right:20px;border:solid 2px black">
+                <img src="images/farmer app/3.png" style="display:flex;position:relative; height:100%; margin-right:20px;border:solid 2px black">
+                <img src="images/farmer app/4.png" style="display:flex;position:relative; height:100%; margin-right:20px;border:solid 2px black">
+            </div>
+        
+        </div>
+
+        <div class="project-block">
+        <h3>Project 4</h3>
+            <p>
+                App design: Elementary-app<br>
+                Link:
+            </p>
+            <div class="row">
+                <img src="images/Kids app/1.png" style="display:flex;position:relative; height:100%; margin-right:20px; border:solid 2px black">
+                <img src="images/Kids app/2.png" style="display:flex;position:relative; height:100%; margin-right:20px;border:solid 2px black">
+                <img src="images/Kids app/3.png" style="display:flex;position:relative; height:100%; margin-right:20px;border:solid 2px black">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="extra">
+
+        <li>
+            Computer Programming Languages that I know: <br>
+            <ol>
+            <li>C Language</li>
+            <li>Visual Basic</li>
+            <li>HTML/CSS</li>
+            <li>React-native</li>
+            <li>Python</li>
+        </ol>
+            
+        </li>
+        <li>    Softwares that I can use: 
+            <ol>
+            <li>WordPress</li>
+            <li>Phototshop</li>
+            <li>AutoCAD</li>
+            <li>Visual Studio</li>
+            </ol>
+            
+        </li>
+                <li>Certifications that I have done related to computers.
+                    <ol>
+                    <li>MCSE 70-270</li> 
+                    <li>MCSE 70-290</li> 
+                    <li>Javascript</li> 
+                </ol>
+                </li>
+                    
+
+    </div>    
+</body>
+</html>
